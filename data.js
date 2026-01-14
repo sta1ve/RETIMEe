@@ -711,7 +711,7 @@ function renderIssue() {
         const postText = typeof post.text === 'object' ? post.text[currentLanguage] : post.text;
         
         const iconEl = postIcon && postIcon.trim() !== ""
-          ? `<img src="${postIcon}" alt="${authorText}" class="social-author-icon" />`
+          ? `<img src="${postIcon}" class="social-author-icon" />`
           : "";
         
        
