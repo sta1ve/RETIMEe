@@ -22,7 +22,7 @@ const FOOTER_LOGO = "https://m4lka.notion.site/image/attachment%3A2be03fbf-dae3-
 const ISSUE_1_IMAGE = "https://i.postimg.cc/RFPbm9MZ/1.png"; 
 
 // Изображение для даты
-const ISSUE_1_DATE_IMAGE = "https://i.postimg.cc/Fz8WfZdV/2.png"; 
+const ISSUE_1_DATE_IMAGE = "https://i.postimg.cc/Zndgx2hj/2.png"; 
 
 const issues = [
   {
