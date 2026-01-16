@@ -6,7 +6,7 @@ console.log("✅ data.js loaded");
 // Измените эти ссылки, чтобы поменять картинки в архиве
 
 // Картинка слева вверху (Issue Number)
-const ISSUE_1_IMAGE = "https://i.postimg.cc/CKkSQp1n/fyvf.png"; 
+const ISSUE_1_IMAGE = "https://i.postimg.cc/mD6Vqww4/fyvf.png"; 
 
 // Картинка справа вверху (Date)
 const ISSUE_1_DATE_IMAGE = "https://i.postimg.cc/qqnFk49P/vfyvf.png"; 

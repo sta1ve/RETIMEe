@@ -19,10 +19,10 @@ const COMMUNITY_THREAD_ARTIST_LINK = "https://x.com/0xboomin";
 const FOOTER_LOGO = "https://m4lka.notion.site/image/attachment%3A2be03fbf-dae3-40f3-b484-69381a78e79a%3Areusde.webp?table=block&id=2c9172ac-99a3-80a2-85a6-e03de84da728&spaceId=09b5d55b-2dbd-409f-a198-a7e599deb266&width=2000&userId=&cache=v2";
 
 // Изображение для Issue #1 
-const ISSUE_1_IMAGE = "https://i.postimg.cc/PxTdwV4G/1.png"; 
+const ISSUE_1_IMAGE = "https://i.postimg.cc/RFPbm9MZ/1.png"; 
 
 // Изображение для даты
-const ISSUE_1_DATE_IMAGE = "https://i.postimg.cc/sfn3McGb/2.png"; 
+const ISSUE_1_DATE_IMAGE = "https://i.postimg.cc/Fz8WfZdV/2.png"; 
 
 const issues = [
   {
