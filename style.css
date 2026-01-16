@@ -1111,3 +1111,170 @@ article p {
   cursor: pointer;
   user-select: none;
 }
+
+/* RE TEAM Collapsible Section */
+.re-team-section {
+  background: rgba(11, 11, 14, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.re-team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s ease;
+}
+
+.re-team-header:hover {
+  background: rgba(245, 245, 247, 0.05);
+}
+
+.re-team-header h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.re-team-logo {
+  height: 60px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.re-team-toggle {
+  font-size: 28px;
+  color: var(--accent);
+  transition: transform 0.3s ease;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.re-team-section.collapsed .re-team-toggle {
+  transform: rotate(-90deg);
+}
+
+.re-team-content {
+  max-height: 2000px;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease, opacity 0.3s ease;
+  padding: 0 25px 25px 25px;
+  opacity: 1;
+}
+
+.re-team-section.collapsed .re-team-content {
+  max-height: 0;
+  padding: 0 25px;
+  opacity: 0;
+}
+
+.re-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.re-team-member {
+  background: rgba(11, 11, 14, 0.4);
+  border: 1px solid rgba(245, 245, 247, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.re-team-member:hover {
+  transform: translateY(-4px);
+  border-color: rgba(245, 245, 247, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.re-team-member-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid var(--border);
+  object-fit: cover;
+}
+
+.re-team-member-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 8px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: block;
+}
+
+.re-team-member-name:hover {
+  color: var(--muted);
+  text-decoration: underline;
+}
+
+.re-team-member-role {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .re-team-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+  }
+  
+  .re-team-header h3 {
+    font-size: 20px;
+  }
+  
+  .re-team-logo {
+    height: 50px;
+  }
+  
+  .re-team-member {
+    padding: 15px;
+  }
+  
+  .re-team-member-avatar {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .re-team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .re-team-header {
+    padding: 15px 20px;
+  }
+  
+  .re-team-logo {
+    height: 45px;
+  }
+  
+  .re-team-content {
+    padding: 0 20px 20px 20px;
+  }
+  
+  .re-team-section.collapsed .re-team-content {
+    padding: 0 20px;
+  }
+}

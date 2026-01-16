@@ -1,26 +1,54 @@
 const CATEGORIES = {
   art: "Best art of the last 2 days",
+  thread: "Best thread of the last 2 days",
   handmade: "Best handmade work of the last 2 days",
   video: "Best video of the last 2 days"
 };
 
 const galleryItems = [
+
+  {
+    media: "https://pbs.twimg.com/media/G-zC0HFXwAAcLlk?format=jpg&name=4096x4096",  
+    twitter: "https://x.com/ZaYaC011",                       
+    category: "art"
+  },
   {
     media: "https://i.postimg.cc/P59r1zKg/G-j-Ly4WXs-AE9u-Lp.jpg",  
     twitter: "https://x.com/syowro",                       
-    category: "art",       
+    category: "art"
+  },
+
+  {
+    media: "https://i.postimg.cc/kgCsLk7b/sdsada.png",  
+    twitter: "https://x.com/0xboomin",                       
+    category: "thread"
+  },
+
   
+
+  {
+    media: "https://pbs.twimg.com/media/G-t1c14bQAI3o15?format=jpg&name=large",
+    twitter: "https://x.com/0xDuckyRWA",
+    category: "handmade"
   },
   {
     media: "https://i.postimg.cc/8PxmfLRx/G-e-HC0Wag-AA9S20.jpg",
     twitter: "https://x.com/0xpinkrabbits",
     category: "handmade"
   },
+  
+
   {
-    media: "https://i.postimg.cc/zGX0TT3P/G-c2XEFWYAAcf9N.gif",  
+    media: "0116_1_.mp4",  
+    twitter: "https://x.com/Dannnnnok",
+    category: "video"
+  },
+  {
+    media: "https://i.postimg.cc/MHCwWzd9/G-c2XEFWYAAcf9N.gif",  
     twitter: "https://x.com/22hizzzaaa",
     category: "video"
-  }
+  },
+
 
 ];
 
@@ -33,8 +61,14 @@ const translations = {
     createdBy: "Created by",
     madeFor: "Made for RE community and its promotion",
     categoryArt: "Best arts",
+    categoryThread: "Best threads",
     categoryHandmade: "Best handmades",
-    categoryVideo: "Best videos"
+    categoryVideo: "Best videos",
+    tabArt: "Art",
+    tabThread: "Thread",
+    tabHandmade: "Handmade",
+    tabVideo: "Video",
+    backToMain: "← Back to main page"
   },
   ru: {
     galleryTitle: "Галерея",
@@ -44,8 +78,14 @@ const translations = {
     createdBy: "Создано",
     madeFor: "Сделано для RE комьюнити и его продвижения",
     categoryArt: "Лучшие арты",
+    categoryThread: "Лучшие треды",
     categoryHandmade: "Лучшие ручные работы",
-    categoryVideo: "Лучшие видосы"
+    categoryVideo: "Лучшие видосы",
+    tabArt: "Арты",
+    tabThread: "Треды",
+    tabHandmade: "Ручная работа",
+    tabVideo: "Видео",
+    backToMain: "← Назад на главную"
   },
   uk: {
     galleryTitle: "Галерея",
@@ -55,8 +95,14 @@ const translations = {
     createdBy: "Створено",
     madeFor: "Зроблено для RE спільноти та її просування",
     categoryArt: "Найкращi арти",
+    categoryThread: "Найкращi треди",
     categoryHandmade: "Найкращi ручнi роботи",
-    categoryVideo: "Найкращi відео"
+    categoryVideo: "Найкращi відео",
+    tabArt: "Арти",
+    tabThread: "Треди",
+    tabHandmade: "Ручна робота",
+    tabVideo: "Відео",
+    backToMain: "← Назад на головну"
   },
   vi: {
     galleryTitle: "Thư viện ảnh",
@@ -66,8 +112,14 @@ const translations = {
     createdBy: "Được tạo bởi",
     madeFor: "Được tạo cho cộng đồng RE và quảng bá của nó",
     categoryArt: "Art tốt nhất",
+    categoryThread: "Thread tốt nhất",
     categoryHandmade: "Thủ công tốt nhất",
-    categoryVideo: "Video tốt nhất"
+    categoryVideo: "Video tốt nhất",
+    tabArt: "Art",
+    tabThread: "Thread",
+    tabHandmade: "Thủ công",
+    tabVideo: "Video",
+    backToMain: "← Quay lại trang chính"
   },
   id: {
     galleryTitle: "Galeri",
@@ -77,8 +129,14 @@ const translations = {
     createdBy: "Dibuat oleh",
     madeFor: "Dibuat untuk komunitas RE dan promosinya",
     categoryArt: "Art terbaik",
+    categoryThread: "Thread terbaik",
     categoryHandmade: "Handmade terbaik",
-    categoryVideo: "Video terbaik"
+    categoryVideo: "Video terbaik",
+    tabArt: "Art",
+    tabThread: "Thread",
+    tabHandmade: "Handmade",
+    tabVideo: "Video",
+    backToMain: "← Kembali ke halaman utama"
   }
 };
 
@@ -110,6 +168,8 @@ function updateCategoryTitle() {
   
   if (currentCategory === 'art') {
     title = t.categoryArt;
+  } else if (currentCategory === 'thread') {
+    title = t.categoryThread;
   } else if (currentCategory === 'handmade') {
     title = t.categoryHandmade;
   } else if (currentCategory === 'video') {
@@ -133,10 +193,8 @@ function updateActiveTab() {
 
 function updateTranslations() {
   const t = translations[currentLanguage];
-  const galleryTitleEl = document.getElementById('galleryTitle');
-  if (galleryTitleEl) {
-    galleryTitleEl.textContent = t.galleryTitle;
-  }
+  
+  // galleryTitle now uses an image, so we don't update it
   
   const infoTextEl = document.getElementById('infoText');
   if (infoTextEl) {
@@ -161,6 +219,27 @@ function updateTranslations() {
   const footerLogoEl = document.getElementById('footerLogo');
   if (footerLogoEl) {
     footerLogoEl.textContent = "re";
+  }
+  
+  // Translate tab buttons
+  const tabs = document.querySelectorAll('.gallery-tabs .tab');
+  tabs.forEach(tab => {
+    const category = tab.getAttribute('data-category');
+    if (category === 'art') {
+      tab.textContent = t.tabArt;
+    } else if (category === 'thread') {
+      tab.textContent = t.tabThread;
+    } else if (category === 'handmade') {
+      tab.textContent = t.tabHandmade;
+    } else if (category === 'video') {
+      tab.textContent = t.tabVideo;
+    }
+  });
+  
+  // Translate back link
+  const backLink = document.querySelector('.gallery-back-link');
+  if (backLink) {
+    backLink.textContent = t.backToMain;
   }
   
   updateCategoryTitle();

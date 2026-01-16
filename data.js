@@ -1,26 +1,28 @@
 console.log("✅ data.js loaded");
 
 // Community Art настройки
-const COMMUNITY_ART_MEDIA = "https://i.postimg.cc/P59r1zKg/G-j-Ly4WXs-AE9u-Lp.jpg";
-const COMMUNITY_ARTIST_LINK = "https://x.com/syowro";
+const COMMUNITY_ART_MEDIA = "https://pbs.twimg.com/media/G-zC0HFXwAAcLlk?format=jpg&name=4096x4096";
+const COMMUNITY_ARTIST_LINK = "https://x.com/ZaYaC011";
 
 // Community Handmade настройки
-const COMMUNITY_HANDMADE_MEDIA = "https://i.postimg.cc/8PxmfLRx/G-e-HC0Wag-AA9S20.jpg";
-const COMMUNITY_HANDMADE_ARTIST_LINK = "https://x.com/0xpinkrabbits";
+const COMMUNITY_HANDMADE_MEDIA = "https://pbs.twimg.com/media/G-t1c14bQAI3o15?format=jpg&name=large";
+const COMMUNITY_HANDMADE_ARTIST_LINK = "https://x.com/0xDuckyRWA";
 
-// Community Video настройки - ИСПРАВЛЕНО
-// Вариант 1: Прямая ссылка на GIF (используйте ТОЛЬКО URL изображения)
-const COMMUNITY_VIDEO_MEDIA = "https://i.postimg.cc/zGX0TT3P/G-c2XEFWYAAcf9N.gif";
-const COMMUNITY_VIDEO_ARTIST_LINK = "https://x.com/22hizzzaaa";
+const COMMUNITY_VIDEO_MEDIA = "0116_1_.mp4";
+const COMMUNITY_VIDEO_ARTIST_LINK = "https://x.com/Dannnnnok";
+
+// Community Thread настройки
+const COMMUNITY_THREAD_MEDIA = "https://i.postimg.cc/kgCsLk7b/sdsada.png";
+const COMMUNITY_THREAD_ARTIST_LINK = "https://x.com/0xboomin";
 
 // Логотип RE
 const FOOTER_LOGO = "https://m4lka.notion.site/image/attachment%3A2be03fbf-dae3-40f3-b484-69381a78e79a%3Areusde.webp?table=block&id=2c9172ac-99a3-80a2-85a6-e03de84da728&spaceId=09b5d55b-2dbd-409f-a198-a7e599deb266&width=2000&userId=&cache=v2";
 
 // Изображение для Issue #1 
-const ISSUE_1_IMAGE = "https://i.postimg.cc/1tsFctTK/1.png"; 
+const ISSUE_1_IMAGE = "https://i.postimg.cc/PxTdwV4G/1.png"; 
 
-// Изображение для даты Issue #1
-const ISSUE_1_DATE_IMAGE = "https://i.postimg.cc/wMxbP9t0/2.png"; 
+// Изображение для даты
+const ISSUE_1_DATE_IMAGE = "https://i.postimg.cc/sfn3McGb/2.png"; 
 
 const issues = [
   {
@@ -33,18 +35,18 @@ const issues = [
     articles: [
       {
         title: {
-          en: "Protocol Update",
-          ru: "Обновление протокола",
-          uk: "Оновлення протоколу",
-          vi: "Cập nhật giao thức",
-          id: "Pembaruan Protokol"
+          en: "Re Protocol Today",
+          ru: "Re протокол сегодня",
+          uk: "Re протокол сьогодні",
+          vi: "Giao thức Re hôm nay",
+          id: "Protokol Re Hari Ini"
         },
         text: {
-          en: "By the end of 2025, the reinsurance market reached record scale as capital flowed into standardized instruments like public catastrophe bonds, driving issuance higher but compressing spreads and returns. This reflects market maturity: where capital is abundant, excess returns fade. Re operates in the underserved segment of smaller, bespoke risks. At year-end, Re reached nearly $400M in total value locked, driven by disciplined underwriting and selective capital deployment rather than crowded public markets.",
-          ru: "К концу 2025 года рынок перестрахования достиг рекордных масштабов на фоне притока капитала в стандартизированные инструменты, включая публичные catastrophe bonds, что привело к росту размещений и снижению доходностей. Это признак зрелости рынка. Re работает в сегменте небольших и нестандартных рисков. На конец года TVL протокола приблизился к $400 млн, рост обеспечен дисциплинированным андеррайтингом и выборочным размещением капитала.",
-          uk: "Наприкінці 2025 року ринок перестрахування досяг рекордних обсягів через приплив капіталу в стандартизовані інструменти, що спричинило зростання випусків і зниження дохідності. Це ознака зрілості ринку. Re працює з невеликими та нестандартними ризиками. Станом на кінець року TVL протоколу наблизився до $400 млн, завдяки дисциплінованому андеррайтингу та вибірковому розміщенню капіталу.",
-          vi: "Đến cuối năm 2025, thị trường tái bảo hiểm đạt quy mô kỷ lục do dòng vốn đổ vào các công cụ tiêu chuẩn hóa, làm tăng phát hành nhưng giảm lợi suất. Đây là dấu hiệu của sự trưởng thành thị trường. Re tập trung vào các rủi ro nhỏ và tùy chỉnh. Cuối năm, TVL của Re đạt gần 400 triệu USD, nhờ kỷ luật underwriting và phân bổ vốn có chọn lọc.",
-          id: "Pada akhir 2025, pasar reasuransi mencapai skala tertinggi seiring masuknya modal ke instrumen terstandarisasi, mendorong penerbitan namun menekan imbal hasil. Ini menandakan kedewasaan pasar. Re berfokus pada risiko kecil dan khusus. Hingga akhir tahun, TVL Re mendekati $400 juta, didorong oleh underwriting yang disiplin dan penempatan modal yang selektif."
+          en: "Re has reached nearly $400M in total value locked, supporting 35 insurers across the reinsurance market. The protocol operates at the intersection of DeFi capital and real-world risk, bringing transparency and programmability to an industry that has operated the same way for centuries.<br><br>Through smart contracts, Re structures and manages insurance exposure onchain—making capital deployment, risk accounting, and returns fully visible. Regulators are aligned, institutional partners are onboarded, and the infrastructure is live. This is not theoretical. Re is processing real premiums, backing real policies, and generating real returns.<br><br>From a $1 trillion reinsurance market, Re has carved out a scalable, durable position. The protocol is operational, the model is proven, and the growth trajectory is clear.",
+          ru: "Re достиг почти $400M в общем заблокированном капитале, поддерживая 35 страховщиков на рынке перестрахования. Протокол работает на пересечении DeFi-капитала и реальных рисков, привнося прозрачность и программируемость в индустрию, которая работала одинаково веками.<br><br>Через смарт-контракты Re структурирует и управляет страховым риском ончейн — делая размещение капитала, учет рисков и доходность полностью видимыми. Регуляторы согласованы, институциональные партнеры подключены, инфраструктура работает. Это не теория. Re обрабатывает реальные премии, обеспечивает реальные полисы и генерирует реальную доходность.<br><br>Из $1 триллиона рынка перестрахования Re занял масштабируемую, устойчивую позицию. Протокол работает, модель доказана, траектория роста ясна.",
+          uk: "Re досяг майже $400M в загальному заблокованому капіталі, підтримуючи 35 страховиків на ринку перестрахування. Протокол працює на перетині DeFi-капіталу та реальних ризиків, привносячи прозорість та програмованість в індустрію, яка працювала однаково віками.<br><br>Через смарт-контракти Re структурує та керує страховим ризиком ончейн — роблячи розміщення капіталу, облік ризиків та дохідність повністю видимими. Регулятори узгоджені, інституційні партнери підключені, інфраструктура працює. Це не теорія. Re обробляє реальні премії, забезпечує реальні поліси та генерує реальну дохідність.<br><br>З $1 трильйона ринку перестрахування Re зайняв масштабовану, стійку позицію. Протокол працює, модель доведена, траєкторія зростання зрозуміла.",
+          vi: "Re đã đạt gần $400M tổng giá trị khóa, hỗ trợ 35 công ty bảo hiểm trên thị trường tái bảo hiểm. Giao thức hoạt động tại giao điểm của vốn DeFi và rủi ro thế giới thực, mang lại tính minh bạch và khả năng lập trình cho một ngành đã hoạt động theo cùng một cách trong nhiều thế kỷ.<br><br>Thông qua hợp đồng thông minh, Re cấu trúc và quản lý rủi ro bảo hiểm onchain—làm cho việc triển khai vốn, kế toán rủi ro và lợi nhuận hoàn toàn minh bạch. Các cơ quan quản lý đã đồng thuận, đối tác thể chế đã tham gia, và cơ sở hạ tầng đang hoạt động. Đây không phải là lý thuyết. Re đang xử lý phí bảo hiểm thực tế, hỗ trợ các hợp đồng thực và tạo ra lợi nhuận thực.<br><br>Từ thị trường tái bảo hiểm $1 nghìn tỷ, Re đã tạo ra một vị thế có thể mở rộng và bền vững. Giao thức đang hoạt động, mô hình đã được chứng minh, và quỹ đạo tăng trưởng rõ ràng.",
+          id: "Re telah mencapai hampir $400M dalam total nilai terkunci, mendukung 35 perusahaan asuransi di pasar reasuransi. Protokol beroperasi di persimpangan modal DeFi dan risiko dunia nyata, membawa transparansi dan kemampuan pemrograman ke industri yang telah beroperasi dengan cara yang sama selama berabad-abad.<br><br>Melalui smart contract, Re menyusun dan mengelola eksposur asuransi secara onchain—membuat penempatan modal, akuntansi risiko, dan pengembalian sepenuhnya terlihat. Regulator sejalan, mitra institusional bergabung, dan infrastruktur berjalan. Ini bukan teoritis. Re memproses premi nyata, mendukung polis nyata, dan menghasilkan pengembalian nyata.<br><br>Dari pasar reasuransi $1 triliun, Re telah mengukir posisi yang scalable dan tahan lama. Protokol beroperasi, modelnya terbukti, dan lintasan pertumbuhan jelas.",
         }
       },
       {
@@ -56,11 +58,114 @@ const issues = [
           id: "Pembaruan di Discord"
         },
         text: {
-          en: "We’re happy to welcome Not Emperor Osmo to the Re team, supporting the project with marketing. As Re continues to grow, we’re also updating how the #re-community channel is used to keep discussions focused and welcoming. Low-effort messages, spam, mass tagging, and links are now restricted. These changes help make Re easier to understand and engage with for everyone.<br>Also, a new role was added!!! It’s called MEGA Legend.",
-          ru: "Мы рады приветствовать Not Emperor Osmo в команде Re — он будет поддерживать проект в направлении маркетинга. По мере роста Re мы также обновили правила использования канала #re-community, чтобы обсуждения оставались полезными и комфортными. Спам, сообщения без ценности, массовые теги и ссылки теперь ограничены. Это делает сообщество более понятным и открытым для всех.<br>Также была добавлена новая роль!!! Она называется MEGA Legend.",
-          uk: "Раді вітати Not Emperor Osmo у команді Re — він підтримуватиме проєкт у напрямку маркетингу. У міру зростання Re ми також оновили правила каналу #re-community, щоб обговорення залишалися змістовними та дружніми. Спам, низькоякісні повідомлення, масові теги та посилання тепер обмежені.<br>Також була додана нова роль!!! Вона називається MEGA Legend.",
-          vi: "Chúng tôi vui mừng chào đón Not Emperor Osmo gia nhập đội ngũ Re, hỗ trợ dự án về marketing. Cùng với sự phát triển của Re, kênh #re-community đã được cập nhật để giữ thảo luận tập trung và thân thiện. Spam, tin nhắn kém chất lượng, gắn thẻ hàng loạt và liên kết hiện đã bị hạn chế.<br>Ngoài ra, một vai trò mới đã được thêm vào!!! Nó có tên là MEGA Legend.",
-          id: "Kami dengan senang hati menyambut Not Emperor Osmo bergabung dengan tim Re, mendukung proyek di bidang pemasaran. Seiring pertumbuhan Re, kami juga memperbarui aturan di kanal #re-community agar diskusi tetap fokus dan ramah. Spam, pesan bernilai rendah, tag massal, dan tautan kini dibatasi.<br>Selain itu, sebuah role baru telah ditambahkan!!! Namanya MEGA Legend."
+          en: "To our valued OG members and contributors: as we advance the platform, " +
+            "we invite you to deepen your focus on Re's core product and technology. " +
+            "Engage with the platform itself, explore our DeFi integrations and partnerships, " +
+            "and connect with the community's most insightful minds in decentralized finance." +
+            "<br><br>For our creative contributors and artists: infuse your work with purpose. " +
+            "Let your art reflect the innovation, utility, and vision of what we're building together. " +
+            "The team values content that showcases integrations, platform performance, " +
+            "and the broader ecosystem—going beyond reUSDe to capture the full scope of Re's mission." +
+            "<br><br>On January 14th, three community members were promoted to (re)al OG role: " +
+            "<a href='https://x.com/sta1ve69' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@sta1ve</a>, " +
+            "<a href='https://x.com/gotfc_' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@qos1mo</a>, and " +
+            "<a href='https://x.com/0xboomin' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@.mikeyboomin</a>. " +
+            "Their dedication and contributions embody what Re is building." +
+            "<br><br>Together, we're not just creating a product. " +
+            "We're shaping the future of decentralized risk markets.",
+          ru: "Дорогие OG-участники и контрибьюторы: по мере развития платформы " +
+            "мы приглашаем вас сосредоточиться на ключевом продукте и технологии Re. " +
+            "Взаимодействуйте с самой платформой, изучайте наши DeFi-интеграции и партнерства, " +
+            "общайтесь с самыми проницательными умами сообщества " +
+            "в области децентрализованных финансов." +
+            "<br><br>Нашим креативным контрибьюторам и художникам: " +
+            "наполняйте свои работы смыслом. " +
+            "Пусть ваше искусство отражает инновации, практическую ценность " +
+            "и видение того, что мы строим вместе. " +
+            "Команда ценит контент, который демонстрирует интеграции, " +
+            "производительность платформы и более широкую экосистему — " +
+            "выходя за рамки reUSDe и охватывая всю миссию Re." +
+            "<br><br>14 января произошло повышение трех участников сообщества на роль (re)al OG: " +
+            "<a href='https://x.com/sta1ve69' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@sta1ve</a>, " +
+            "<a href='https://x.com/gotfc_' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@qos1mo</a> и " +
+            "<a href='https://x.com/0xboomin' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@.mikeyboomin</a>. " +
+            "Их преданность и вклад воплощают то, что строит Re." +
+            "<br><br>Вместе мы создаем не просто продукт. " +
+            "Мы формируем будущее децентрализованных рынков рисков.",
+          uk: "Шановні OG-учасники та контриб'ютори: у міру розвитку платформи " +
+            "ми запрошуємо вас зосередитися на ключовому продукті та технології Re. " +
+            "Взаємодійте з самою платформою, досліджуйте наші DeFi-інтеграції та партнерства, " +
+            "спілкуйтеся з найпроникливішими умами спільноти " +
+            "у сфері децентралізованих фінансів." +
+            "<br><br>Нашим креативним контриб'юторам та митцям: " +
+            "наповнюйте свої роботи сенсом. " +
+            "Нехай ваше мистецтво відображає інновації, практичну цінність " +
+            "та бачення того, що ми будуємо разом. " +
+            "Команда цінує контент, який демонструє інтеграції, " +
+            "продуктивність платформи та ширшу екосистему — " +
+            "виходячи за межі reUSDe та охоплюючи всю місію Re." +
+            "<br><br>14 січня відбулося підвищення трьох учасників спільноти на роль (re)al OG: " +
+            "<a href='https://x.com/sta1ve69' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@sta1ve</a>, " +
+            "<a href='https://x.com/gotfc_' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@qos1mo</a> та " +
+            "<a href='https://x.com/0xboomin' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@.mikeyboomin</a>. " +
+            "Їхня відданість та внесок втілюють те, що будує Re." +
+            "<br><br>Разом ми створюємо не просто продукт. " +
+            "Ми формуємо майбутнє децентралізованих ринків ризиків.",
+          vi: "Gửi các thành viên OG và cộng tác viên quý giá: " +
+            "khi chúng tôi phát triển nền tảng, " +
+            "chúng tôi mời bạn tập trung sâu hơn vào sản phẩm cốt lõi và công nghệ của Re. " +
+            "Tương tác với chính nền tảng, khám phá các tích hợp và đối tác DeFi của chúng tôi, " +
+            "và kết nối với những bộ óc sâu sắc nhất trong cộng đồng tài chính phi tập trung." +
+            "<br><br>Đối với các cộng tác viên sáng tạo và nghệ sĩ: " +
+            "hãy thấm nhuần mục đích vào tác phẩm của bạn. " +
+            "Để nghệ thuật của bạn phản ánh sự đổi mới, tiện ích " +
+            "và tầm nhìn về những gì chúng ta đang xây dựng cùng nhau. " +
+            "Đội ngũ đánh giá cao nội dung thể hiện các tích hợp, hiệu suất nền tảng " +
+            "và hệ sinh thái rộng lớn hơn—vượt ra ngoài reUSDe " +
+            "để nắm bắt toàn bộ sứ mệnh của Re." +
+            "<br><br>Vào ngày 14 tháng 1, ba thành viên cộng đồng " +
+            "được thăng cấp lên vai trò (re)al OG: " +
+            "<a href='https://x.com/sta1ve69' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@sta1ve</a>, " +
+            "<a href='https://x.com/gotfc_' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@qos1mo</a> và " +
+            "<a href='https://x.com/0xboomin' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@.mikeyboomin</a>. " +
+            "Sự cống hiến và đóng góp của họ thể hiện những gì Re đang xây dựng." +
+            "<br><br>Cùng nhau, chúng ta không chỉ tạo ra một sản phẩm. " +
+            "Chúng ta đang định hình tương lai của thị trường rủi ro phi tập trung.",
+          id: "Kepada anggota OG dan kontributor kami yang berharga: " +
+            "saat kami memajukan platform, " +
+            "kami mengundang Anda untuk memperdalam fokus pada produk inti dan teknologi Re. " +
+            "Terlibatlah dengan platform itu sendiri, jelajahi integrasi dan kemitraan DeFi kami, " +
+            "dan terhubung dengan pemikir paling tajam dalam komunitas keuangan terdesentralisasi." +
+            "<br><br>Untuk kontributor kreatif dan seniman kami: " +
+            "berikan makna pada karya Anda. " +
+            "Biarkan seni Anda mencerminkan inovasi, utilitas, " +
+            "dan visi dari apa yang kita bangun bersama. " +
+            "Tim menghargai konten yang menampilkan integrasi, kinerja platform, " +
+            "dan ekosistem yang lebih luas—melampaui reUSDe " +
+            "untuk menangkap lingkup penuh misi Re." +
+            "<br><br>Pada tanggal 14 Januari, tiga anggota komunitas " +
+            "dipromosikan ke peran (re)al OG: " +
+            "<a href='https://x.com/sta1ve69' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@sta1ve</a>, " +
+            "<a href='https://x.com/gotfc_' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@qos1mo</a>, dan " +
+            "<a href='https://x.com/0xboomin' target='_blank' rel='noopener noreferrer' " +
+            "style='color: var(--accent); text-decoration: underline;'>@.mikeyboomin</a>. " +
+            "Dedikasi dan kontribusi mereka mewujudkan apa yang sedang dibangun oleh Re." +
+            "<br><br>Bersama-sama, kita tidak hanya menciptakan produk. " +
+            "Kita membentuk masa depan pasar risiko terdesentralisasi."
         }
       },
       {
@@ -80,10 +185,120 @@ const issues = [
         }
       },
     ],
+    team: [
+      {
+        name: "Karn Saroya",
+        link: "https://x.com/karnsaroya",
+        avatar: "https://pbs.twimg.com/profile_images/1757146411962146816/YjmvhwIZ_400x400.jpg",
+        role: {
+          en: "Co-founder & CEO",
+          ru: "Сооснователь и CEO",
+          uk: "Співзасновник та CEO",
+          vi: "Đồng sáng lập & CEO",
+          id: "Co-founder & CEO"
+        }
+      },
+      {
+        name: "Natalie Gray",
+        link: "https://x.com/natalieevagray",
+        avatar: "https://pbs.twimg.com/profile_images/1919825728318930947/a-Z1wC2N_400x400.jpg",
+        role: {
+          en: "Co-founder & Mommy",
+          ru: "Сооснователь и Мамочка",
+          uk: "Співзасновниця та Мамочка",
+          vi: "Đồng sáng lập & Mommy",
+          id: "Co-founder & Mommy"
+        }
+      },
+      {
+        name: "Ben Aneesh",
+        link: "https://x.com/benaneesh",
+        avatar: "https://pbs.twimg.com/profile_images/1985752135888203776/r5zxeVS8_400x400.jpg",
+        role: {
+          en: "Co-founder & Engineer",
+          ru: "Сооснователь и инженер",
+          uk: "Співзасновник та інженер",
+          vi: "Đồng sáng lập & Kỹ sư",
+          id: "Co-founder & Engineer"
+        }
+      },
+      {
+        name: "Cliff White",
+        link: "https://x.com/thecliffwhite",
+        avatar: "https://pbs.twimg.com/profile_images/2002818403602714624/tM6qyVFa_400x400.jpg",
+        role: {
+          en: "Co-founder, RE Labs",
+          ru: "Сооснователь, RE Labs",
+          uk: "Співзасновник, RE Labs",
+          vi: "Đồng sáng lập, RE Labs",
+          id: "Co-founder, RE Labs"
+        }
+      },
+      {
+        name: "ChazEevee",
+        link: "https://x.com/ChazEevee",
+        avatar: "https://pbs.twimg.com/profile_images/2007836099943563264/pggTViTw_400x400.jpg",
+        role: {
+          en: "Community Manager",
+          ru: "Коммьюнити-менеджер",
+          uk: "Ком'юніті-менеджер",
+          vi: "Quản lý cộng đồng",
+          id: "Manajer Komunitas"
+        }
+      },
+      {
+        name: "j.mike ./",
+        link: "https://x.com/miketwinks",
+        avatar: "https://pbs.twimg.com/profile_images/1972363197458866176/PAbBCZTs_400x400.jpg",
+        role: {
+          en: "Vibe Community Curator",
+          ru: "Вайбовый коммьюнити-куратор",
+          uk: "Вайбовий ком'юніті-куратор",
+          vi: "Người quản lý vibe",
+          id: "Vibe Community Curator"
+        }
+      },
+      {
+        name: "ItsMeJon",
+        link: "https://x.com/ContraryActuary",
+        avatar: "https://pbs.twimg.com/profile_images/2004218491876909056/-q17SRwH_400x400.jpg",
+        role: {
+          en: "Actuary",
+          ru: "Актуарий",
+          uk: "Актуарій",
+          vi: "Chuyên gia Bảo hiểm",
+          id: "Aktuaris"
+        }
+      },
+      {
+        name: "Saul",
+        link: "https://x.com/SaulCapital",
+        avatar: "https://pbs.twimg.com/profile_images/1676182300789293057/hlyGdn1i_400x400.jpg",
+        role: {
+          en: "Growth",
+          ru: "Рост",
+          uk: "Зростання",
+          vi: "Tăng trưởng",
+          id: "Growth"
+        }
+      },
+      {
+        name: "@st3phdoteth",
+        link: "https://x.com/st3phdoteth",
+        avatar: "https://pbs.twimg.com/profile_images/2000640002490015744/tx7gjBch_400x400.jpg",
+        role: {
+          en: "Marketing Chad",
+          ru: "Маркетинг-чад",
+          uk: "Маркетинг-чад",
+          vi: "Marketing Chad",
+          id: "Marketing Chad"
+        }
+      }
+    ],
     metrics: {
-      TVL: "$395,385,709",
-      "Onchain Capital": "$115,965,574",
-      "Offchain Capital": "$64,278,960",
+      TVL: "$398,280,540",
+      "Onchain Capital": "$119,129,400",
+      "Offchain Capital": "$64,009,965",
       "Premium Receivable": "$215,141,174"
     },
     social: [
@@ -280,17 +495,22 @@ const issues = [
     ],
     art: {
       media: COMMUNITY_ART_MEDIA,
-      author: "@syowro",
+      author: "@ZaYaC011",
       link: COMMUNITY_ARTIST_LINK
+    },
+    thread: {
+      media: COMMUNITY_THREAD_MEDIA,
+      author: "@0xboomin",
+      link: COMMUNITY_THREAD_ARTIST_LINK
     },
     handmade: {
       media: COMMUNITY_HANDMADE_MEDIA,
-      author: "@0xpinkrabbits",
+      author: "@0xDuckyRWA",
       link: COMMUNITY_HANDMADE_ARTIST_LINK
     },
     video: {
       media: COMMUNITY_VIDEO_MEDIA,
-      author: "@22hizzzaaa",
+      author: "@Dannnnnok",
       link: COMMUNITY_VIDEO_ARTIST_LINK
     }
   }
@@ -302,6 +522,7 @@ const translations = {
     archiveTitle: "Archive",
     socialTitle: "RE TEAM",
     artTitle: "↓Best art of the last 2 days↓",
+    threadTitle: "↓Best Thread of the last 2 days↓",
     handmadeTitle: "↓Best handmade work of the last 2 days↓",
     videoTitle: "↓Best video of the last 2 days↓",
     footerText: "Published every two days",
@@ -323,6 +544,7 @@ const translations = {
     archiveTitle: "Архив",
     socialTitle: "RE TEAM",
     artTitle: "↓Лучший арт за последние 2 дня↓",
+    threadTitle: "↓Лучший тред за последние 2 дня↓",
     handmadeTitle: "↓Лучшая ручная работа за последние 2 дня↓",
     videoTitle: "↓Лучшее видео за последние 2 дня↓",
     footerText: "Выходит каждые два дня",
@@ -344,6 +566,7 @@ const translations = {
     archiveTitle: "Архів",
     socialTitle: "RE TEAM",
     artTitle: "↓Найкращий арт за останні 2 дні↓",
+    threadTitle: "↓Найкращий тред за останні 2 дні↓",
     handmadeTitle: "↓Найкраща ручна робота за останні 2 дні↓",
     videoTitle: "↓Найкраще відео за останні 2 дні↓",
     footerText: "Виходить кожні два дні",
@@ -365,6 +588,7 @@ const translations = {
     archiveTitle: "Lưu trữ",
     socialTitle: "RE TEAM",
     artTitle: "Tác phẩm nghệ thuật hay nhất trong 2 ngày qua↓",
+    threadTitle: "↓Thread hay nhất trong 2 ngày qua↓",
     handmadeTitle: "Tác phẩm thủ công hay nhất trong 2 ngày qua↓",
     videoTitle: "Video hay nhất trong 2 ngày qua↓",
     footerText: "Xuất bản mỗi hai ngày",
@@ -386,6 +610,7 @@ const translations = {
     archiveTitle: "Arsip",
     socialTitle: "RE TEAM",
     artTitle: "↓Karya seni terbaik dalam 2 hari terakhir↓",
+    threadTitle: "↓Thread terbaik dalam 2 hari terakhir↓",
     handmadeTitle: "↓Karya tangan terbaik dalam 2 hari terakhir↓",
     videoTitle: "↓Video terbaik dalam 2 hari terakhir↓",
     footerText: "Diterbitkan setiap dua hari",
@@ -490,8 +715,7 @@ function setLanguage(lang) {
 function updateTranslations() {
   const t = translations[currentLanguage];
   
-  const archiveTitleEl = document.getElementById('archiveTitle');
-  if (archiveTitleEl) archiveTitleEl.textContent = t.archiveTitle;
+  // archiveTitle now uses an image, so we don't update it
   
   const socialTitleEl = document.getElementById('socialTitle');
   if (socialTitleEl) socialTitleEl.textContent = t.socialTitle;
@@ -674,67 +898,55 @@ function renderIssue() {
     }
   }
 
-  const archiveEl = document.getElementById("archive");
-  if (archiveEl) {
-    archiveEl.innerHTML = '';
-    issues.forEach((issue, index) => {
-      if (index !== currentIssueIndex) {
-        const li = document.createElement("li");
-        const link = document.createElement("a");
-        link.href = "#";
-        let issueDate = issue.date;
-        if (currentLanguage === 'ru' && issue.dateRu) issueDate = issue.dateRu;
-        else if (currentLanguage === 'uk' && issue.dateUk) issueDate = issue.dateUk;
-        else if (currentLanguage === 'vi' && issue.dateVi) issueDate = issue.dateVi;
-        else if (currentLanguage === 'id' && issue.dateId) issueDate = issue.dateId;
-        link.textContent = `${t.issue}${issue.number} — ${issueDate}`;
-        link.onclick = (e) => {
-          e.preventDefault();
-          loadIssue(index);
-        };
-        li.appendChild(link);
-        archiveEl.appendChild(li);
-      }
-    });
-  }
-
-  const socialEl = document.getElementById("socialContent");
-  if (socialEl) {
-    socialEl.innerHTML = '';
-    if (current.social && current.social.length > 0) {
-      current.social.forEach(post => {
-        const div = document.createElement("div");
-        div.className = "social-post";
-        
-        const authorText = post.author;
-        const postIcon = post.icon || "";
-        const postText = typeof post.text === 'object' ? post.text[currentLanguage] : post.text;
-        
-        const iconEl = postIcon && postIcon.trim() !== ""
-          ? `<img src="${postIcon}" class="social-author-icon" />`
-          : "";
-        
-       
-        div.style.cursor = "pointer";
-        div.onclick = function() {
-          showTweetModal(post);
-        };
-        
-        div.innerHTML = `
-        <div class="social-author">${iconEl}${authorText}</div>
-      
-        <div class="social-text">${postText}</div>
-      
-        <div class="social-view-tweet">
-          ${t.viewNewTweet}
+  // Render RE TEAM Section
+  const teamSectionContainer = document.getElementById("reTeamSection");
+  if (teamSectionContainer && current.team && current.team.length > 0) {
+    const t = translations[currentLanguage];
+    
+    let teamHTML = `
+      <div class="re-team-section collapsed" id="reTeamCollapsible">
+        <div class="re-team-header" id="reTeamHeader">
+          <img src="https://i.postimg.cc/W1TX4Fxd/reteam.png" alt="RE TEAM" class="re-team-logo" />
+          <span class="re-team-toggle">▼</span>
         </div>
-      `;           
-        socialEl.appendChild(div);
+        <div class="re-team-content">
+          <div class="re-team-grid">
+    `;
+    
+    current.team.forEach(member => {
+      const role = typeof member.role === 'object' ? member.role[currentLanguage] : member.role;
+      teamHTML += `
+        <div class="re-team-member">
+          <img src="${member.avatar}" alt="${member.name}" class="re-team-member-avatar" />
+          <a href="${member.link}" target="_blank" rel="noopener noreferrer" class="re-team-member-name">${member.name}</a>
+          <div class="re-team-member-role">${role}</div>
+        </div>
+      `;
+    });
+    
+    teamHTML += `
+          </div>
+        </div>
+      </div>
+    `;
+    
+    teamSectionContainer.innerHTML = teamHTML;
+    
+    // Add click handler for collapsible functionality
+    const teamHeader = document.getElementById('reTeamHeader');
+    const teamCollapsible = document.getElementById('reTeamCollapsible');
+    
+    if (teamHeader && teamCollapsible) {
+      teamHeader.addEventListener('click', function() {
+        teamCollapsible.classList.toggle('collapsed');
       });
-    } else {
-      socialEl.innerHTML = `<p class="muted">${t.noActivity}</p>`;
     }
   }
+
+  // Archive is now manually managed in HTML
+  // const archiveEl = document.getElementById("archive");
+  // Archive links are added manually to preserve historical issues
+
 
   const artEl = document.getElementById("communityArt");
   if (artEl) {
@@ -804,6 +1016,25 @@ function renderIssue() {
       
       artHTML += `
         <div class="art-section">
+          ${mediaElement}
+          <p class="author">${t.by} ${authorEl}</p>
+        </div>`;
+    }
+    
+    // Best thread
+    if (current.thread) {
+      const authorText = current.thread.author;
+      const authorLink = current.thread.link;
+      const authorEl = (authorLink && authorLink.trim() !== "" && authorLink !== "#")
+        ? `<a href="${authorLink}" target="_blank" rel="noopener noreferrer" class="author-link">${authorText}</a>`
+        : `<span>${authorText}</span>`;
+      
+      const mediaUrl = current.thread.media || current.thread.image || "";
+      let mediaElement = getMediaElement(mediaUrl);
+      
+      artHTML += `
+        <div class="art-section">
+          <h3 class="art-subsection-title">${t.threadTitle}</h3>
           ${mediaElement}
           <p class="author">${t.by} ${authorEl}</p>
         </div>`;
